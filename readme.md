@@ -5,6 +5,13 @@ This repository really only aims to be a working sample based on the following g
 It consists of four projects in total, whereas two of them are Aspire projects AppHost and ServiceDefaults, along with two Orleans projects called Silo and Client.
 
 # How to run
+
+## Prerequisites
+
+1. Make sure Docker is running
+
+## Steps
+
 1. Clone the repository
 2. Open the solution in Visual Studio
 3. Set the AppHost project as the startup project
