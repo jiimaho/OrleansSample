@@ -15,9 +15,11 @@
                           Version="*"/>
         <PackageReference Include="Aspire.Azure.Storage.Blobs"
                           Version="*"/>
+        <PackageReference Include="Microsoft.Orleans.Client" Version="9.0.1" />
         <PackageReference Include="Microsoft.Orleans.Persistence.AzureStorage"
                           Version="*"/>
         <PackageReference Include="Microsoft.Orleans.Clustering.AzureStorage"
                           Version="*"/>
+        <PackageReference Include="Microsoft.Orleans.Server" Version="9.0.1" />
     </ItemGroup>
 </Project>
