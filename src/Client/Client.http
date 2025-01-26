@@ -1,6 +1,9 @@
 @Client_HostAddress = http://localhost:5028
 
-GET {{Client_HostAddress}}/weatherforecast/
+### Get counter value
+GET {{Client_HostAddress}}/counter/grain-1
 Accept: application/json
 
-###
+### Increment counter value
+POST {{Client_HostAddress}}/counter/grain-1
+
